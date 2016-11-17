@@ -13,13 +13,13 @@ public class FSCommon {
 	{
 		URI hdfsURI =new URI(uri);
 		FileSystem fs =FileSystem.get(hdfsURI, conf);
-		System.out.println(fs.getStatus().toString());
+//		System.out.println(fs.getStatus().toString());
 		return fs;
 	}
 	public static FileSystem getFS(Configuration conf) throws  IOException
 	{
 		FileSystem fs =FileSystem.get(conf);
-		System.out.println(fs.getStatus().toString());
+//		System.out.println(fs.getStatus().toString());
 		return fs;
 	}
 
