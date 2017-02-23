@@ -8,7 +8,7 @@ import org.apache.hadoop.conf.Configuration;
 public class ConfCommon {
 	public static Configuration updateConf(Configuration conf)
 	{
-		ConfCommon.printConf(conf);
+//		ConfCommon.printConf(conf);
 //		conf.set("fs.hdfs.impl", "org.apache.hadoop.hdfs.DistributedFileSystem");
 //		conf.setBoolean("mapred.compress.map.output", false); 
 //		conf.setBoolean("mapreduce.map.output.compress", false); 
