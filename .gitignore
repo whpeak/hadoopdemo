@@ -1,7 +1,4 @@
 /.settings/
 /target/
-/.classpath/
-/.project/
 .classpath
 .project
-src/test/
